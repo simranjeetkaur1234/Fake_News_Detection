@@ -14,13 +14,31 @@ The research utilizes the ISOT Fake News Dataset, which is sourced from Mendeley
 
 - **Source**: Mendeley Data - ISOT Fake News Dataset
 - **Link**:https://data.mendeley.com/datasets/945z9xkc8d/1
-- **Citation**: H. Ahmed, I. Traore, S. Saad, "Detection of Online Fake News Using N-Gram Analysis and Machine Learning Techniques," in: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), 2017, pp. 127–138. doi:https://doi.org/10.1007/978-3-319-69155-8_9
+- **Citation**: H. Ahmed, I. Traore, S. Saad, "Detection of Online Fake News Using N-Gram Analysis and Machine Learning Techniques," in: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), 2017, pp. 127–138. DOI: [Link to DOI]
 - **Description**: The dataset includes a balanced collection of fake and real news articles, making it a valuable resource for training models to accurately identify deceptive information. The dataset is divided into training and testing sets with an 80:20 split to facilitate rigorous model evaluation.
+## How It Works
+- We use models like Naive Bayes, Logistic Regression, CNN, and LSTM.
+- The project is based on a dataset that includes both real and fake news articles.
 
-## Installation
+## Files in This Repository
+- `data/`: Contains the dataset used for training and testing the models.
+- `models/`: Stores the trained models (note: large files might not be uploaded here).
+- `notebooks/`: Jupyter notebooks with all the coding and testing.
+- `src/`: Python scripts for data preparation, model training, and evaluation.
+- `requirements.txt`: A list of Python packages needed to run the project.
 
-Instructions on how to set up the project:
+## Getting Started
+To get started with this project:
+1. Clone this repository.
+2. Install required Python packages: `pip install -r requirements.txt`.
+3. Run the Jupyter notebook in the `notebooks/` directory to train the models.
 
-1. Clone the repository:
-   ```bash
-   git clone [repository URL]
+## How to Contribute
+Feel free to fork this repository, make changes, and submit a pull request if you have improvements or new ideas.
+
+
+
+## Acknowledgments
+- Thanks to everyone who contributed to developing the models and documentation.
+- Thanks to Mendeley Data for providing the dataset we used.
+
